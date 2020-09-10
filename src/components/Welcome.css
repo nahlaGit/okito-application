@@ -24,6 +24,15 @@
 .img {
   height: 600px;
 }
+img {
+  display: block;
+  width: inherit;
+  height: inherit;
+  -o-object-fit: inherit;
+  object-fit: inherit;
+  -o-object-position: inherit;
+  object-position: inherit;
+}
 
 .part1 {
   height: 550px;
@@ -67,7 +76,7 @@
 }
 
 .about-img {
-  padding: 60px;
+  padding: 50px;
 }
 
 .about {
@@ -88,9 +97,10 @@
 }
 
 .footer {
-  height: 30px;
-  margin-top: 40px;
+  /* height: 30px; */
+  /* margin-top: 40px; */
   background-color: #0a0a0a;
+  padding: 5px;
 }
 
 .f-text {
@@ -134,13 +144,14 @@
 
 .footer {
   width: 100%;
-  height: 30px;
+  /* height: 30px; */
   background-color: #9bff61;
 }
 
 .witness-title {
-  left: 38%;
+  /* left: 38%; */
   margin-top: 80px;
+  text-align: center;
 }
 .witness-text {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -152,10 +163,17 @@
 }
 
 .witness-col {
+	height: 370px;
 }
 
 .witness {
-  width: 370px;
+  /* width: 370px; */
   border-radius: 15px;
   background-color: transparent;
+  height: 100%;
+}
+.witness-img {
+	height: 100%;
+	object-fit: cover;
+	max-height: 100%;
 }
