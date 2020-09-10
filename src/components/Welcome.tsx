@@ -93,7 +93,7 @@ const Welcome: React.FC = () => {
             </IonText>
           </IonCol>
         </IonRow>
-        <IonRow class="ion-justify-content-around about">
+        <IonRow class="ion-justify-content-around ion-align-items-center about">
           <IonCol
             sizeXl="4"
             sizeMd="6"
@@ -101,7 +101,7 @@ const Welcome: React.FC = () => {
             class="col-about ion-text-center"
           >
             <IonImg class="about-img" src={train}></IonImg>
-            <IonText class="h-about-text ion-align-items-center">
+            <IonText class="h-about-text">
               Entraînez-vous !
             </IonText>
             <br />
@@ -153,22 +153,22 @@ const Welcome: React.FC = () => {
         <IonRow class="witness-row ion-justify-content-center  ion-align-items-center ">
           <IonCol sizeLg="4" class="witness-col">
             <IonCard class="witness">
-              <IonImg src={slide3}></IonImg>
+              <IonImg src={slide3} class="witness-img"></IonImg>
             </IonCard>
           </IonCol>
           <IonCol sizeLg="4" class="witness-col">
             <IonCard class="witness">
-              <IonImg src={slide1}></IonImg>
+              <IonImg src={slide1} class="witness-img"></IonImg>
             </IonCard>
           </IonCol>
           <IonCol sizeLg="4" class="witness-col">
             <IonCard class="witness">
-              <IonImg src={slide2}></IonImg>
+              <IonImg src={slide2} class="witness-img"></IonImg>
             </IonCard>
           </IonCol>
         </IonRow>
       </IonContent>
-      <IonFooter class="ion-text-end ion-align-items-center footer">
+      <IonFooter class="ion-text-center ion-align-items-center footer">
         <IonText class="f-text">
           Developpée par <strong>Nahla VILLA</strong>{" "}
         </IonText>
